@@ -1,3 +1,5 @@
+@import url("./header.scss");
+
 *{
   margin: 0;
   padding: 0;
@@ -7,14 +9,14 @@ body{
   background: #23262D;
 }
 
-@mixin paragraphe{
+.paragraphe{
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     color: #fff;
 }
 
-@mixin btn-green{
+.btn-green{
   button{
     background-color:  #D5A24F;
     padding: 16px 32px;
@@ -25,7 +27,7 @@ body{
   }
 }
 
-@mixin h2{
+h2{
     font-family: "Yrsa";
     font-size: 48px;
     font-weight: 600;
@@ -33,14 +35,14 @@ body{
     color: #fff;
 }
 
-@mixin txt-green{
+.txt-green{
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 600;
   color: #D5A24F;
 }
 
-@mixin svg-bg{
+.svg-bg{
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -55,17 +57,17 @@ body{
   }
 }
 
-@mixin color-txt{
+.color-txt{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
 }
 
-@mixin bg-black{
+.bg-black{
   background: #2F383D;
 }
 
-@mixin title-card{
+.title-card{
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 600;
@@ -73,13 +75,13 @@ body{
   text-align: center;
 }
 
-@mixin card-container{
+.card-container{
   display: grid;
   justify-content: center;
   align-items: center;
 }
 
-@mixin btn-border{
+.btn-border{
   border: 2px solid #fff;
   padding: 16px 32px;
   background: none;
@@ -89,7 +91,7 @@ body{
   font-weight: 400;
   }
 
-@mixin card{
+.card{
   width: 100%;
   padding-bottom: 10px;
   figure{
@@ -103,23 +105,8 @@ body{
   }
 }
 
-.title-card{
-  @include title-card;
-}
 
-.txt-card{
-  @include paragraphe;
-  text-align: center;
-}
 
-.btn-card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  button{
-    @include btn-border;
-  }
-}
 
 
 
