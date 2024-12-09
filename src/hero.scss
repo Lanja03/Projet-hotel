@@ -1,0 +1,57 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-gradient{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover; 
+        opacity: 0.6;
+    }
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 257px;
+
+    img{
+        width: 160px;
+        height: 44px;
+    }
+}
+.title{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+h1{
+        font-family: "Yrsa";
+        font-size: 72px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
