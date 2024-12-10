@@ -1,0 +1,35 @@
+.our{
+    margin-top: 120px;
+    p{
+        text-align: center;
+    }
+}
+.card-warper-our{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 76px;
+    padding-left: 154px;
+    padding-right: 154px;
+    padding-top: 20px;
+}
+
+.card-our{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    p{
+        text-align: center;
+    }
+}
+
+.btn-our{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 100%;
+    }
+}
