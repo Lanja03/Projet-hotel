@@ -1,0 +1,29 @@
+.title-choose{
+    padding-left: 141px;
+}
+
+.card-wraper-choose{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px;
+    padding-left: 141px;
+    padding-right: 141px;
+}
+
+.card-choose{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p{
+        text-align: center;
+    }
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+}
