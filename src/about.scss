@@ -1,0 +1,53 @@
+.about{
+    width: 100%;
+    margin-top: 89px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.number{
+    display: flex;
+    padding-left: 128px;
+    p{
+        display: flex;
+        gap: 27px;
+        font-family: "Poppins";
+        font-size: 63px;
+        font-weight: 700;
+        text-align: left;
+        color: #D5A24F;
+    }
+}
+
+
+
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76.14px;
+    height: 169px;
+    top: 5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.txt-about{
+    padding-right: 128px;
+}
+
+.btn-about{
+    padding-top: 15px;
+    button{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 16px 32px;
+        border: none;
+        border-radius: 50px;
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+    }
+}
