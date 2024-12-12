@@ -22,3 +22,12 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))*/
+import Splide from "@splidejs/splide";
+
+var splide = new Splide( '.splide', {
+  type   : 'loop',
+  perPage: 4,
+  perMove: 1,
+} );
+
+splide.mount();
