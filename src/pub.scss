@@ -1,13 +1,18 @@
 .pub{
     margin-top: 100px;
+    padding-left: 40px;
+        padding-right: 40px;
 }
 
-.wraper-pub{
+ul{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    padding-left: 40px;
-    padding-right: 40px;
+  
+    li{
+        list-style: none;
+    }
+  
 }
 
 .card-pub{
